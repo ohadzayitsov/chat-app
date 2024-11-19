@@ -1,0 +1,32 @@
+[
+    {
+        "code": 1,
+        "user_name": "noa_cohen",
+        "password": "password123",
+        "image": "https://example.com/images/noa_cohen.jpg"
+    },
+    {
+        "code": 2,
+        "user_name": "itai_levi",
+        "password": "securePass456",
+        "image": "https://example.com/images/itai_levi.jpg"
+    },
+    {
+        "code": 3,
+        "user_name": "maya_rosenberg",
+        "password": "maya789!",
+        "image": "https://example.com/images/maya_rosenberg.jpg"
+    },
+    {
+        "code": 4,
+        "user_name": "daniel_friedman",
+        "password": "danielPass!42",
+        "image": "https://example.com/images/daniel_friedman.jpg"
+    },
+    {
+        "code": 5,
+        "user_name": "liel_shmuely",
+        "password": "Liel@2023",
+        "image": "https://example.com/images/liel_shmuely.jpg"
+    }
+]
