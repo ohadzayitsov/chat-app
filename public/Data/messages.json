@@ -1,0 +1,188 @@
+[
+    {
+        "from": 1,
+        "to": 2,
+        "text": "Hi, how are you doing?",
+        "dateTime": "2024-11-21T09:00:00"
+    },
+    {
+        "from": 2,
+        "to": 1,
+        "text": "I'm doing great, thanks! How about you?",
+        "dateTime": "2024-11-21T10:15:00"
+    },
+    {
+        "from": 3,
+        "to": 4,
+        "text": "Hey, can we discuss the project tomorrow?",
+        "dateTime": "2024-11-21T11:30:00"
+    },
+    {
+        "from": 4,
+        "to": 3,
+        "text": "Sure, let's schedule it for the afternoon.",
+        "dateTime": "2024-11-21T14:00:00"
+    },
+    {
+        "from": 5,
+        "to": 1,
+        "text": "Don't forget our meeting next week.",
+        "dateTime": "2024-11-21T16:45:00"
+    },
+    {
+        "from": 1,
+        "to": 3,
+        "text": "Let's finalize the details of the meeting tomorrow.",
+        "dateTime": "2024-11-22T09:30:00"
+    },
+    {
+        "from": 3,
+        "to": 1,
+        "text": "Got it, I'll prepare everything for tomorrow.",
+        "dateTime": "2024-11-22T10:00:00"
+    },
+    {
+        "from": 2,
+        "to": 5,
+        "text": "How's everything going with the report?",
+        "dateTime": "2024-11-22T12:30:00"
+    },
+    {
+        "from": 5,
+        "to": 2,
+        "text": "Almost done, just a few final touches left.",
+        "dateTime": "2024-11-22T14:15:00"
+    },
+    {
+        "from": 4,
+        "to": 1,
+        "text": "Can we reschedule the call for tomorrow afternoon?",
+        "dateTime": "2024-11-22T16:00:00"
+    },
+    {
+        "from": 1,
+        "to": 4,
+        "text": "Sure, tomorrow afternoon works for me.",
+        "dateTime": "2024-11-22T16:30:00"
+    },
+    {
+        "from": 2,
+        "to": 3,
+        "text": "Can we push the meeting to later today?",
+        "dateTime": "2024-11-23T09:00:00"
+    },
+    {
+        "from": 3,
+        "to": 2,
+        "text": "Yes, later today works. What time?",
+        "dateTime": "2024-11-23T09:30:00"
+    },
+    {
+        "from": 1,
+        "to": 5,
+        "text": "I’ll be offline for the next hour.",
+        "dateTime": "2024-11-23T11:00:00"
+    },
+    {
+        "from": 5,
+        "to": 1,
+        "text": "Got it, I'll catch up with you after that.",
+        "dateTime": "2024-11-23T12:00:00"
+    },
+    {
+        "from": 4,
+        "to": 2,
+        "text": "Let’s go over the project updates tomorrow morning.",
+        "dateTime": "2024-11-23T13:15:00"
+    },
+    {
+        "from": 2,
+        "to": 4,
+        "text": "Sounds good! I'll be ready.",
+        "dateTime": "2024-11-23T14:00:00"
+    },
+    {
+        "from": 3,
+        "to": 1,
+        "text": "We need to review the meeting agenda before tomorrow.",
+        "dateTime": "2024-11-23T15:30:00"
+    },
+    {
+        "from": 1,
+        "to": 3,
+        "text": "I’ll send it over in an hour.",
+        "dateTime": "2024-11-23T16:00:00"
+    },
+    {
+        "from": 5,
+        "to": 4,
+        "text": "Can you check the report before we submit it?",
+        "dateTime": "2024-11-23T17:00:00"
+    },
+    {
+        "from": 4,
+        "to": 5,
+        "text": "I’ll review it now and let you know.",
+        "dateTime": "2024-11-23T18:00:00"
+    },
+    {
+        "from": 2,
+        "to": 3,
+        "text": "Are we on track for tomorrow's presentation?",
+        "dateTime": "2024-11-24T08:00:00"
+    },
+    {
+        "from": 3,
+        "to": 2,
+        "text": "Yes, everything is set for tomorrow.",
+        "dateTime": "2024-11-24T09:00:00"
+    },
+    {
+        "from": 1,
+        "to": 4,
+        "text": "Can we have a quick sync-up at 10 AM?",
+        "dateTime": "2024-11-24T09:45:00"
+    },
+    {
+        "from": 4,
+        "to": 1,
+        "text": "Sure, I’ll be ready by 10.",
+        "dateTime": "2024-11-24T10:00:00"
+    },
+    {
+        "from": 5,
+        "to": 2,
+        "text": "Let’s wrap up the last tasks before the end of the day.",
+        "dateTime": "2024-11-24T11:30:00"
+    },
+    {
+        "from": 2,
+        "to": 5,
+        "text": "I agree, we’re almost done.",
+        "dateTime": "2024-11-24T12:00:00"
+    },
+    {
+        "from": 1,
+        "to": 5,
+        "text": "Do you have time for a quick review meeting tomorrow?",
+        "dateTime": "2024-11-24T13:30:00"
+    },
+    {
+        "from": 5,
+        "to": 1,
+        "text": "I’ll be available after lunch.",
+        "dateTime": "2024-11-24T14:00:00"
+    },
+    {
+        "from": 3,
+        "to": 4,
+        "text": "Can we set a time for the brainstorming session tomorrow?",
+        "dateTime": "2024-11-24T15:00:00"
+    },
+    {
+        "from": 4,
+        "to": 3,
+        "text": "Let’s do it at 10 AM tomorrow.",
+        "dateTime": "2024-11-24T15:30:00"
+    }
+]

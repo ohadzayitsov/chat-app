@@ -1,40 +1,24 @@
 import React, { useContext, useEffect, useState } from "react";
 import { User } from "../../types/users";
-import { fetchJsonData } from "../../utils/jsonFunctions.tsx";
 import { GlobalContext } from "../../context/GlobalContext.tsx";
-import { Avatar, List, ListItemButton } from "@mui/material";
+import { Avatar, List, ListItemButton, ListItemText } from "@mui/material";
+import Header from "../Header/Header.tsx";
+import ListOfUsers from "../ListOfUsers/ListOfusers.tsx";
+import LogoutIcon from '@mui/icons-material/Logout';
 
+const Home = () => {
+  const { connectedUser, setConnectedUser, users, setUsers } = useContext(GlobalContext);
 
-const Home = () =>{
-const {connectedUser, setConnectedUser}=useContext(GlobalContext)
-const [users, setUsers]= useState<User[]>([])
-const [error, setError] = useState(null);
-
-
-useEffect(() => {
-    const fetchData = async () => {
-        const usersData = await fetchJsonData("users");
-        if (usersData) {
-            setUsers(usersData);
-        }
-    };
-    setConnectedUser({
-        code:1,
-        user_name:'noa_cohen',
-        password:'password123',
-        image:"https://example.com/images/noa_cohen.jpg"
-    })
-    fetchData();
-}, []);
-
-return <div>
-    <List>
-        <ListItemButton>
-        <Avatar src={connectedUser.image}></Avatar>
-        </ListItemButton>
-    </List>
+  const handleLogout = () => {
+    console.log("Clearing user from localStorage.");
+    setConnectedUser({} as User);
+    localStorage.removeItem("connectedUser");
+  };
+  return (
+    <div>
+      <Header user={connectedUser} icon={<LogoutIcon onClick={handleLogout} />} />
+      <ListOfUsers users={users.filter((user) => user.code != connectedUser.code)} />
     </div>
-}
+  );
+};
 export default Home;
-
-

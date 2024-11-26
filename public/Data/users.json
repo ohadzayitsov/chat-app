@@ -1,32 +1,32 @@
 [
     {
         "code": 1,
-        "user_name": "noa_cohen",
+        "user_name": "NoaCohen",
         "password": "password123",
-        "image": "https://example.com/images/noa_cohen.jpg"
+        "image": "https://via.placeholder.com/150/0000FF/FFFFFF?text=Noa"
     },
     {
         "code": 2,
-        "user_name": "itai_levi",
-        "password": "securePass456",
-        "image": "https://example.com/images/itai_levi.jpg"
+        "user_name": "ItiLevi",
+        "password": "securepass456",
+        "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=Iti"
     },
     {
         "code": 3,
-        "user_name": "maya_rosenberg",
-        "password": "maya789!",
-        "image": "https://example.com/images/maya_rosenberg.jpg"
+        "user_name": "MayaRose",
+        "password": "mypassword789",
+        "image": "https://via.placeholder.com/150/00FF00/FFFFFF?text=Maya"
     },
     {
         "code": 4,
-        "user_name": "daniel_friedman",
-        "password": "danielPass!42",
-        "image": "https://example.com/images/daniel_friedman.jpg"
+        "user_name": "ShaharBen",
+        "password": "pass1234",
+        "image": "https://via.placeholder.com/150/FFFF00/FFFFFF?text=Shahar"
     },
     {
         "code": 5,
-        "user_name": "liel_shmuely",
-        "password": "Liel@2023",
-        "image": "https://example.com/images/liel_shmuely.jpg"
+        "user_name": "TamarBar",
+        "password": "hello5678",
+        "image": "https://via.placeholder.com/150/FF00FF/FFFFFF?text=Tamar"
     }
 ]
