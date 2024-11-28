@@ -33,6 +33,7 @@ const MessagePage = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
+//comment doesn't need await
         await fachMemeber();
       } catch (error) {
         console.error("Error fetching member:", error);
@@ -41,7 +42,8 @@ const MessagePage = () => {
       }
     }
     fetchData();
-  }, [location.pathname]);  useEffect(() => {
+  }, [location.pathname]); 
+   useEffect(() => {
     const container = scrollableContainerRef.current;
     if (container && !loading) {
       container.scrollTop = container.scrollHeight;

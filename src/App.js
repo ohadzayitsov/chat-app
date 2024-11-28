@@ -10,6 +10,9 @@ import Login from "./components/Login/Login.tsx";
 function App() {
   const { connectedUser, setConnectedUser, setUsers, setMessages } =
     useContext(GlobalContext);
+    
+    //comment maybe initialize in useEffect
+    //should have saved connected user in sessionStorage ,so you can log in to different users in different tabs
   const [connectedUserState] = useState(() => {
     const savedUser = localStorage.getItem("connectedUser");
     return savedUser ? JSON.parse(savedUser) : null;
@@ -67,6 +70,7 @@ function App() {
     }
   }, []);
 
+  //comment unnecessary useEffect
   useEffect(() => {
     if (connectedUserState) {
       setConnectedUser(connectedUserState);

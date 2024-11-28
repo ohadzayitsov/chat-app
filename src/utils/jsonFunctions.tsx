@@ -54,6 +54,7 @@ export const findInDB = async (key, condition) => {
     await db.put('dataStore', { id: key, value: updatedData });
   };
   
+  //comment same as saveToDB
   export const setToDB = async (key, value) => {
     const db = await initDB();
     await db.put('dataStore', { id: key, value });

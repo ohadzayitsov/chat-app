@@ -16,7 +16,7 @@ interface GlobalContextProps {
   setMessages: React.Dispatch<React.SetStateAction<Message[]>>;
   fachMemeber: () => void;
 }
-
+//comment alot of data to have in one context, maybe split to userContext,messageContext ...
 export const GlobalContext = createContext({} as GlobalContextProps);
 
 export default function GlobalContextProvider(props: any) {
@@ -31,6 +31,7 @@ export default function GlobalContextProvider(props: any) {
     return pathSegments[index] || null; // Returns null if the segment doesn't exist
   };
   
+  //comment member id shouldn't be in url, can be simplified so that when the user selects a chat in ListOfUsers ,set the member as the selected user
   async function fachMemeber() {
     const pathSegments = getPathSegment(2);
     if (pathSegments) {
